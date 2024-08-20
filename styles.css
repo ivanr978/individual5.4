@@ -1,0 +1,86 @@
+/* styles.css */
+
+/* Estilo global para la página */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: center;
+}
+
+/* Estilo para el encabezado */
+h1 {
+  background-color: #ff7043;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+/* Estilo para el input y botón */
+input[type="text"],
+button {
+  padding: 10px;
+  margin: 10px 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #ff7043;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e64a19;
+}
+
+/* Contenedor de categorías */
+#category-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+/* Estilo para cada categoría */
+#category-container div {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 15px;
+  width: 250px;
+  transition: transform 0.2s;
+}
+
+#category-container div:hover {
+  transform: translateY(-5px);
+}
+
+/* Estilo para las imágenes */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Estilo para los títulos de categoría */
+h2 {
+  color: #ff7043;
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+/* Estilo para las descripciones */
+p {
+  font-size: 0.9rem;
+  color: #666;
+  text-align: left;
+}
